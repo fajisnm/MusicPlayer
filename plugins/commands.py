@@ -97,7 +97,7 @@ async def show_help(client, message):
         ],
         [
             InlineKeyboardButton('👨🏼‍💻 Developer', url='https://t.me/mhdfajis'),
-            InlineKeyboardButton('👩‍🦯' Donate, url='https://t.me/mhdfajisn/5'),
+            InlineKeyboardButton('👩‍🦯' Donate', url='https://t.me/mhdfajisn/5'),
         ]
     ]
     reply_markup = InlineKeyboardMarkup(buttons)
