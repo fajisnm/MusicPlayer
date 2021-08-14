@@ -69,7 +69,7 @@ You can also use /dplay <song name> to play a song from Deezer.</b>
 async def start(client, message):
     buttons = [
         [
-        InlineKeyboardButton('⚙️ Update Channe, url='https://t.me/botcodesforyou'),
+        InlineKeyboardButton('⚙️ Update Channe', url='https://t.me/botcodesforyou'),
         InlineKeyboardButton('🤖Bot codes', url='https://t.me/botcodesforyou'),
     ],
     [
