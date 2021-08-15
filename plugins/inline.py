@@ -28,11 +28,11 @@ from config import Config
 REPLY_MESSAGE=Config.REPLY_MESSAGE
 buttons = [
     [
-        InlineKeyboardButton('⚡️Make Own Bots', url='https://t.me/botcodesforyou'),
+        InlineKeyboardButton('Read my bio', url='https://t.me/mhdfajisn/5'),
         InlineKeyboardButton('Support group', url='https://t.me/codingdiscuss'),
     ],
     [
-        InlineKeyboardButton('🎧 Music', url=f'https://t.me/{USERNAME}'),
+        InlineKeyboardButton('🤖Bot codes ', url='https://t.me/botcodesforyou'),
         InlineKeyboardButton('👨🏼‍🦯 Donation', url='https://t.me/mhdfajisn/5')       
     ]
     ]
@@ -43,7 +43,7 @@ async def search(client, query):
         answers.append(
             InlineQueryResultArticle(
                 title="Deploy",
-                input_message_content=InputTextMessageContent(f"{REPLY_MESSAGE}\n\n<b>You can't use this bot in your group, for that you have to make your own bot from the [SOURCE CODE](https://github.com/subinps/MusicPlayer) below.</b>", disable_web_page_preview=True),
+                input_message_content=InputTextMessageContent(f"{REPLY_MESSAGE}\n\n<b>Please Don't spam if not approved to pm then please select your enquiry from below and wait for approval else drop your message and wait for my reply .Read about me 👉[mhd fajis bio](https://t.me/mhdfajisn/5) below.</b>", disable_web_page_preview=True),
                 reply_markup=InlineKeyboardMarkup(buttons)
                 )
             )
