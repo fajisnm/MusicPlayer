@@ -28,12 +28,12 @@ from config import Config
 REPLY_MESSAGE=Config.REPLY_MESSAGE
 buttons = [
     [
-        InlineKeyboardButton('⚡️Make Own Bot', url='https://heroku.com/deploy?template=https://github.com/subinps/MusicPlayer'),
-        InlineKeyboardButton('🧩 Source Code', url='https://github.com/subinps/MusicPlayer'),
+        InlineKeyboardButton('⚡️Make Own Bots', url='https://t.me/botcodesforyou'),
+        InlineKeyboardButton('Support group', url='https://t.me/codingdiscuss'),
     ],
     [
-        InlineKeyboardButton('🎧Play Music', url=f'https://t.me/{USERNAME}'),
-        InlineKeyboardButton('👨🏼‍🦯 Help', callback_data='help')       
+        InlineKeyboardButton('🎧 Music', url=f'https://t.me/{USERNAME}'),
+        InlineKeyboardButton('👨🏼‍🦯 Donation', url='https://t.me/mhdfajisn/5')       
     ]
     ]
 @Client.on_inline_query()
