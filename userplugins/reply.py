@@ -36,9 +36,9 @@ async def reply(client, message):
             result_id=inline.results[0].id,
             hide_via=True
             )
-        old=CACHE.get(message.chat.id)
-        if old:
-            await client.delete_messages(message.chat.id, [old["msg"], old["s"]])
+        new=CACHE.get(message.chat.id)
+        if new:
+            await client.delete_messages(message.chat.id, [new["msg"], new["s"]])
         CACHE[message.chat.id]={"msg":m.updates[1].message.id, "s":message.message_id}
     except BotInlineDisabled:
         for admin in ADMINS:
