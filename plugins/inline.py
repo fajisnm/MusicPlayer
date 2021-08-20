@@ -43,7 +43,7 @@ async def search(client, query):
         answers.append(
             InlineQueryResultArticle(
                 title="Deploy",
-                input_message_content=InputTextMessageContent(f"{REPLY_MESSAGE}\n\n<b>Please Don't spam if not approved to pm then please select your enquiry from below and wait for approval else drop your message and wait for my reply .Read about me 👉[mhd fajis bio](https://t.me/mhdfajisn/5) below.</b>", disable_web_page_preview=True),
+                input_message_content=InputTextMessageContent(f"\n\n<b>Hey I don't have time to chat with you kindly join @codingdiscuss or ask @mhdfajis\n\nPlease Don't spam if not approved to pm then please select your enquiry from below and wait for approval else drop your message and wait for my reply .\n\nRead about me 👉[mhd fajis bio](https://t.me/mhdfajisn/5) below.</b>", disable_web_page_preview=True),
                 reply_markup=InlineKeyboardMarkup(buttons)
                 )
             )
